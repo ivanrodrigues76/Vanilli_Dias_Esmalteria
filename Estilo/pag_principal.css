@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Rosarivo:ital@0;1&family=Wire+One&display=swap');
+
+:root {
+        --cor-primaria: #FCEFE6;
+        --cor-secundaria: #36513E;
+        --cor-terciaria: #AE7118;
+        --cor-detalhes: #EEBBB7;
+        
+        --fonte-principal: 'Rosarivo', cursive;
+        --fonte-titulo: 'Wire One', sans-serif;
+        --fonte-tabela: 'Wire One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Estrutura */
+
+body {      
+    align-items: center;
+    background-color: var(--cor-primaria);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 1vw;
+    background-color: var(--cor-detalhes);
+}
+
+.corpo__da__pag {
+    padding: 5%;    
+    display: flex;     
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.moldura {
+    width: 280px;
+    height: 398px;
+    display: flex;  
+    padding: 20px;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--cor-detalhes);
+    border-radius: 66px;
+}
+
+.rodape {    
+    padding: 1vw;
+    background-color: var(--cor-detalhes);
+}
+
+/* Estrutura */
+
+
+
+/* Imagens */
+
+.gps_logo {
+    padding: 10px;
+    width: 30%;    
+}
+
+.contato__botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.contato__botoes__link_img {
+    width: 30px;
+}
+
+/* Imagens */
+
+
+
+/* Links */
+
+.botoes__pag__principal {    
+    content: 55.5% 62.5%;
+    display: flex;    
+    flex-direction: column;    
+    gap: 23px
+}
+
+.botao__pag__principal__links {   
+    width: 150px;
+    padding: 10px;  
+    color: var(--cor-secundaria);    
+    border: 1px solid var(--cor-detalhes);
+    border-radius: 66px;
+    text-decoration: none; 
+    font-family: var(--fonte-principal);
+    font-size: 1,25rem;
+    font-weight: 400;
+    text-align: center;    
+}
+
+.botao__voltar {         
+    width: 150px; 
+    padding: 10px;   
+    color: var(--cor-terciaria);    
+    border: 1px solid var(--cor-detalhes);
+    border-radius: 66px;
+    text-decoration: none; 
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;     
+}
+
+.botao_gps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    color: var(--cor-terciaria); 
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.contato__botoes__link {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 150px;    
+    padding: 10px;   
+    color: var(--cor-terciaria);    
+    border: 1px solid var(--cor-detalhes);
+    border-radius: 66px;
+    text-decoration: none; 
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    gap: 5px;
+}
+
+/* Links */
+
+
+
+/* Textos */
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo__principal {    
+    color: var(--cor-secundaria);
+    text-align: center;    
+    font-family: var(--fonte-titulo);
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.titulo__secundario {
+    color: var(--cor-secundaria);
+    text-align: center;    
+    font-family: var(--fonte-titulo);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.subtitulo {
+    color: var(--cor-terciaria);    
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 2.5rem;
+}
+
+.esmalteria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.esmalteria_subtitulo {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal); 
+    font-size: 1.25em;  
+    text-align: center;    
+}
+
+.esmalteria__texto {
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal); 
+    font-size: 0.75em;  
+    font-weight: 600; 
+}
+
+.tabela {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.tabela__servicos {
+    width: 200px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-tabela);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: start;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.tabela__precos {
+    width: 64px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-tabela);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: end;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.texto__localizacao {
+    width: 231px;
+    height: 104px;
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;    
+    gap: 10px;
+}
+
+.texto__localizacao__linha {    
+    color: var(--cor-terciaria);  
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+}
+
+/* Textos */
