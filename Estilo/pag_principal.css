@@ -169,7 +169,7 @@ ul {
     text-align: center;    
     font-family: var(--fonte-titulo);
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .titulo__secundario {
@@ -177,7 +177,7 @@ ul {
     text-align: center;    
     font-family: var(--fonte-titulo);
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .subtitulo {
